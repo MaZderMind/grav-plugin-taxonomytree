@@ -1,0 +1,26 @@
+name: Taxonomy-Tree
+version: 1.0
+description: "Organize the Taxonomy-Entries in a Page-Tree and expose that as Variable into Twig."
+icon: sitemap
+author:
+  name: MaZderMind
+  email: peter@mazdermind.de
+  url: https://github.com/MaZderMind
+homepage: https://github.com/MaZderMind/grav-plugin-taxonomytree
+keywords: taxonomy, category, tags, page, tree, pagetree, twig, template, taxonomytree"
+bugs: https://github.com/MaZderMind/grav-plugin-taxonomytree/issues
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool

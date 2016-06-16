@@ -1,0 +1,23 @@
+{
+    "name": "grav-plugin-taxonomytree",
+    "description": "Organize the Taxonomy-Entries in a Page-Tree and expose that as Variable into Twig.",
+    "keywords": ["taxonomy", "category", "tags", "page", "tree", "pagetree", "twig", "template", "taxonomytree"],
+    "homepage": "https://github.com/MaZderMind/grav-plugin-taxonomytree",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MaZderMind",
+            "email": "peter@mazdermind.de",
+            "homepage": "https://github.com/MaZderMind/grav-plugin-taxonomytree",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "peter@mazdermind.de",
+        "issues": "https://github.com/MaZderMind/grav-plugin-taxonomytree/issues",
+        "docs": "https://github.com/MaZderMind/grav-plugin-taxonomytree/blob/master/README.md"
+    },
+    "require": {
+        "php": ">=5.4.0"
+    }
+}
